@@ -1,0 +1,28 @@
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+.containers {
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 1025px) {
+  .containers {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .containers {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .containers {
+    width: 90%;
+  }
+}
